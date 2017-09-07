@@ -156,7 +156,7 @@ Finally, we need to update the package.manifest file to load the additional cont
     {
         "javascript":[
             /*any comma delimited list of javascript files appear here*/
-            "~/app_plugins/CustomWelcomeDashboard/customwelcomedashboard.controller.js"
+            "~/app_plugins/CustomWelcomeDashboard/customwelcomedashboardcontroller.js"
         ],
         "css": [
             /*a comma delimited list of stylesheets appear here:*/
