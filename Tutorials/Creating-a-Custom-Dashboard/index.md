@@ -103,7 +103,7 @@ We need to add something called a package.manifest file to our CustomWelcomeDash
 
 When Umbraco loads the dashboard it will look for this file in the same folder as your HTML view (remember the dashboard config points to the html view) and use the manifest to load the additional resources, eg CSS and JS files.
 
-This manifest file is simpler to the one you would create for a [custom property editor](../../Extending/Property-Editors/package-manifest.md)
+This manifest file is similar to the one you would create for a [custom property editor](../../Extending/Property-Editors/package-manifest.md)
 
 Inside this package manifest we add a bit of JSON to describe the dashboard's required javascript and stylesheet resources:
 
